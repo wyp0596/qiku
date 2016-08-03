@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+        <ImageButton
+            android:paddingTop="6sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/riding"
+            android:background="#FFFFFF"
+            android:id="@+id/imgbt"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="骑行模式"
+            android:id="@+id/title"
+            android:textSize="50sp"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="速度\n0.00"
+        android:id="@+id/speed"
+        android:textSize="45sp"
+        android:textColor="#000000"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#999999"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="里程\n0.00"
+                android:id="@+id/licheng"
+                android:textSize="35sp"
+                android:textColor="#000"/>
+            <Chronometer
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:format="时间\n%s"
+                android:gravity="center_horizontal"
+                android:id="@+id/time"
+                android:textSize="35sp"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="均速\n0.00"
+                android:id="@+id/junsu"
+                android:textSize="35sp"
+                android:textColor="#000"/>
+
+        </TableRow>
+    </TableLayout>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#999999"
+        />
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:paddingTop="8dp"
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <Button
+
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:layout_width="0dip"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="8dp"
+                android:textSize="25sp"
+                android:background="@drawable/button_sport"
+                android:textColor="#ffff"
+                android:text="@string/start"
+                android:id="@+id/bt_start"
+
+
+                />
+            <Button
+
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:layout_width="0dip"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="8dp"
+                android:text="地图"
+                android:background="@drawable/button_map"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:id="@+id/bt_map"
+
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

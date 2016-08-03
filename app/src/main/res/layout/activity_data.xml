@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#333333"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_marginTop="0dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="8dp"
+        android:text="历史记录"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#336699"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_marginTop="0dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="8dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/sum"/>
+
+    <!--定义一个ListView-->
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

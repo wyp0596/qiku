@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">骑酷</string>
+    <string name="run">跑步模式</string>
+    <string name="ride">骑行模式</string>
+    <string name="walk">散步模式</string>
+    <string name="about">使用说明</string>
+    <string name="start">开始运动</string>
+    <string name="stop">停止运动</string>
+    <string name="share">分享</string>
+</resources>
